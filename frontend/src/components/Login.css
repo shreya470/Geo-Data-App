@@ -1,0 +1,92 @@
+/* Overall container with map-themed background */
+.login-container {
+  max-width: 400px;
+  margin: 10vh auto;
+  padding: 2rem;
+  background: linear-gradient(135deg, #c8e6c9, #81c784);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+/* Title styling */
+.login-title {
+  color: #1b5e20;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+/* Loading spinner positioning */
+.loading-spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+/* Form styling */
+.form-container {
+  width: 100%;
+  text-align: left;
+}
+
+.form-group {
+  margin-bottom: 1.5rem; /* Adjust the spacing as needed */
+}
+
+
+.col-form-label {
+  font-weight: bold; /* Ensures the label stands out */
+}
+
+.form-group label {
+  font-weight: bold;
+  color: #2e7d32;
+}
+
+.form-group .form-control {
+  border-radius: 8px;
+  padding: 0.8rem;
+  font-size: 1rem;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Button styling */
+.login-button {
+  width: 100%;
+  padding: 0.8rem;
+  background-color: #43a047;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.login-button:hover {
+  background-color: #388e3c;
+  transform: translateY(-2px);
+}
+
+/* Register link styling */
+.register-link {
+  margin-top: 1.5rem;
+  font-size: 0.9rem;
+  color: #2e7d32;
+}
+
+.register-button {
+  color: #1b5e20;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.register-button:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,134 @@
+.upload-container {
+  max-width: 600px;
+  margin: 10vh auto;
+  padding: 2rem;
+  background: linear-gradient(135deg, #c8e6c9, #81c784);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.upload-title {
+  color: #1b5e20;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.file-upload {
+  margin-bottom: 1.5rem;
+}
+
+.file-label {
+  display: inline-block;
+  margin: 10px 0;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #2e7d32;
+  cursor: pointer;
+}
+
+.file-input {
+  display: none; /* Hide the default file input */
+}
+
+.upload-button {
+  margin-top: 1rem; /* Increase top margin for spacing */
+  background-color: #43a047;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  padding: 0.8rem 1.5rem; /* Increase padding for a larger button */
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.upload-button:hover {
+  background-color: #388e3c;
+  transform: translateY(-2px);
+}
+
+.file-list {
+  margin: 1.5rem 0;
+}
+
+.filenames-title {
+  font-size: 1.5rem;
+  color: #1b5e20;
+  margin-bottom: 1rem;
+}
+
+.file-name {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.selected-filename {
+  font-weight: bold;
+}
+
+.map-link {
+  margin-top: 20px;
+}
+
+.show-map-button {
+  background-color: #1e88e5;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.show-map-button:hover {
+  background-color: #1976d2;
+}
+
+/* New styles for improved layout */
+.file-upload {
+  display: flex; /* Use flexbox for layout */
+  flex-direction: column; /* Align items vertically */
+  align-items: center; /* Center items horizontally */
+}
+
+.file-label {
+  margin: 10px 0;
+}
+
+.upload-button {
+  margin-top: 10px;
+  width: 100%; /* Make the button full width */
+}
+
+.file-list ul {
+  list-style-type: none; /* Remove bullet points */
+  padding: 0; /* Remove padding */
+}
+
+.file-list li {
+  display: flex; /* Flexbox for horizontal layout */
+  justify-content: space-between; /* Space between file name and delete button */
+  align-items: center; /* Center vertically */
+  margin: 10px 0; /* Add margin for spacing */
+  padding: 10px; /* Add padding for better touch targets */
+  background: linear-gradient(135deg, #c8e6c9, #81c784); /* Gradient background */
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  color: #1b5e20; /* Set text color for better contrast */
+}
+
+.file-list .delete-button {
+  margin-left: 10px; /* Space between filename and delete button */
+  background-color: #e57373; /* Red color for delete button */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.file-list .delete-button:hover {
+  background-color: #d32f2f; /* Darker red on hover */
+}
